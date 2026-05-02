@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="ja">
+        <meta charset="utf-8">
+        <title>🏠home｜なんかのサイト</title>
+        <style>
+            .p_null{
+                color: lightgray;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            なんのためかわからん
+        </h1>
+        正直なんとなくで書いたページ。<br>
+        なんのためかわからん。<br>
+        <br>
+        <!---->
+        <button onclick="maxa()">まぁ、</button>
+        <div id="maxa"></div>
+        <!---->
+        <h1>
+            links:
+        </h1>
+        <p class="p_null">まだないョ！</p>
+
+        <hr>
+        <i>最終更新:20260502</i>
+
+        <script>
+            function maxa(){
+                document.getElementById("maxa").innerHTML = `
+                趣味でhtmlを書いている<ruby>もの<rt>者</rt></ruby>なので、<br>
+                テキトーにこのサイトで試運転？的な感じで出すかも<br>
+                まぁ見る人いないだろうけど。
+                <br><br>
+                <button onclick="maxa_c()">閉じる</button>
+                `
+            }
+            function maxa_c(){
+                document.getElementById("maxa").innerHTML = "";
+            }
+        </script>
+    </body>
+</html>
